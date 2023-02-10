@@ -3,6 +3,17 @@ entries:
   ca-injector:
   - apiVersion: v2
     appVersion: v1.0.3
+    created: "2023-02-10T16:23:45.017023365Z"
+    description: A kubernetes MutatingAdmissionWebhook to inject certificate bundles
+      into pods based on annotations
+    digest: 92d280c9879c915761d2936717e13e0a7f9642e6b9d648b002d7bf1f1c73c9a2
+    name: ca-injector
+    type: application
+    urls:
+    - https://AbsaOSS.github.io/ca-injector/ca-injector-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v1.0.3
     created: "2023-02-10T10:08:54.168874422Z"
     description: A kubernetes MutatingAdmissionWebhook to inject certificate bundles
       into pods based on annotations
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://AbsaOSS.github.io/ca-injector/ca-injector-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-10T10:08:54.167914494Z"
+generated: "2023-02-10T16:23:45.016164146Z"
