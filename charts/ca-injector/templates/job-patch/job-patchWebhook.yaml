@@ -38,6 +38,8 @@ spec:
             - patch
             - --webhook-name=ca-injector.microcumul.us
             - --namespace={{ .Release.Namespace }}
+            - --key-name=tls.key
+            - --cert-name=tls.crt
             - --secret-name={{ template "ca-injector.fullname" . }}
             - --patch-validating=false
           resources:
